@@ -1,0 +1,12 @@
+<!-- 
+        1. *ngfor says we want to use the NgFor directive on the current attribute. We are creating a new DOM element for every item in a collection 
+        2. let 'name' is a reference to the array 'named'. let name of names means loop over each element in the names array and assign each to a local variable called name. The local variable name will hold the current item being itterated over. 
+            - Put the local variable in the brackets to render each name separetly. 
+        3. We are passing a value (name) to the input on that component, and the value on the right side comes from the let (local variable)
+            - [name] designates the Input on hte UserItemComponent. We pass the value of the local variable "name" (The value of the local variable is the name being itterated over) to the name Input.
+-->
+<ul>
+    <li *ngFor="let name of names">
+       <app-user-item [name]="name"></app-user-item>
+    </li>
+</ul>
