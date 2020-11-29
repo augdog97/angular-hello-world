@@ -1,5 +1,8 @@
 # AngularHelloWorld
 
+
+This project is a very simple Angular Project. Its purpose was to get introduced to the framework. 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
 
 ## Development server
